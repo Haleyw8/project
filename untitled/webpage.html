@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Preview Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            padding: 50px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+            font-size: 18px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Welcome to the Interactive Forest Preview</h1>
+    <p>This webpage lets users explore a 3D interactive forest built with A-Frame. In the main page:</p>
+    <ul style="text-align: left; display: inline-block;">
+        <li>You can interact with bunnies: feed them carrots to make them smile.</li>
+        <li>Pick carrots, which increase your carrot counter.</li>
+        <li>Click on flowers to make them wiggle.</li>
+        <li>Watch clouds drift smoothly in the sky.</li>
+    </ul>
+    <p>Click the button below to get started </p>
+    <button onclick="goToIndex()">Go to the Interactive Forest</button>
+</div>
+
+<script>
+    function goToIndex() {
+        // Redirect to index.html
+        window.location.href = "index.html";
+    }
+</script>
+</body>
+</html>
